@@ -39,6 +39,7 @@ a {
   font-weight: 700;
 }
 
+/* 25C (?) */
 .header img {
   position: relative;
   top: 13px;
@@ -69,6 +70,7 @@ a {
   padding-left: 20px;
   box-sizing: border-box;
 }
+/* 24F */
 
 .BinHeader {
   display: flex;
@@ -92,6 +94,7 @@ a {
   background-color: #ED6B5A;
 }
 
+/* 25D */
 .BinHeader span {
   float: left;
   margin-left: 26px;

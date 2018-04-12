@@ -8,6 +8,7 @@ class Dash extends Component {
             <div>
                 <BossHeader/>
             <div className='shelvez-wrapper'>
+        {/* 54G */}
                 <Shelvez labels={['A','B','C','D']}/>
             </div>    
             </div>

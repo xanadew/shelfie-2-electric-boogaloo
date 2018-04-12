@@ -18,7 +18,8 @@
     margin-right: 3px;
 }
 
-.BossHeader > div {
+/* 22C-3 */
+.BossHeader > div {         
     width: 500px;
     text-align: left;
     align-self: center;

@@ -51,7 +51,7 @@ class Product extends Component {
         }).catch(err=>console.log(err));
     }
     deleteProduct(){
-        axios.delete(`/api/bin/${this.props.match.params.id}`)
+        axios.delete(`/api/bin/${this.props.match.params.id}`)              // shelfie-1
         .then(res => {
             console.log(res.data);
             this.props.history.goBack();
@@ -62,17 +62,19 @@ class Product extends Component {
         return (
             <div>
                 <BinHeader id={this.props.match.params.id} addTo={false}/>
-            
+            {/* 54C 54E */}
             <div className='product'>
                 <div className='spacer'></div>
                 <div className='product-img'>
-                    <img src='https://i.imgur.com/xbaJhUa.jpg' alt=''/> 
+                                {/* // 23F */}
+                    <img src='https://i.imgur.com/xbaJhUa.jpg' alt=''/>              
                 </div>
                 <div className='inputs'>
                 <span>Name:</span>
                 <input readOnly value={`${this.state.product_name}`} onChange={this.changeName}/>
                 <span className='clear'>Price:</span>
                 <input readOnly value={`${this.state.price}`} onChange={this.changePrice}/>
+                                    {/* 22C-4 */}
                 <div className='product-buttons clear'>
                     <button onClick={this.handleClick} className={this.state.button}>{this.state.button}</button>
                     <button onClick={() => this.deleteProduct()}>Delete</button>

@@ -13,10 +13,14 @@
     display:flex;
     justify-content: center;
 }
+/* 24C */
+
 .inputs{
     flex: 1;
     padding-left:100px;
 }
+/* 24E */
+
 .inputs input{
     width:500px;
     padding:14px;
@@ -27,6 +31,8 @@
     font-weight:bold;
     float:left;
 }
+/* 24D */
+
 .inputs span{
     display:block;
     text-align:left;

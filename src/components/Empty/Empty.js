@@ -6,6 +6,7 @@ const Empty = (props) => {
 
         return (
             <Link to={`/create/${props.id}`}>
+            {/* 54F */}
             <div className='emptybin'><h2>+ Add to Inventory</h2></div>
             </Link>
         );
