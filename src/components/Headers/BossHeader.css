@@ -1,0 +1,25 @@
+.header {
+    background-color: #AB2A19;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header img {
+    position: relative;
+    top: 13px;
+    height: 50px;
+    margin-right: 3px;
+}
+
+.BossHeader > div {
+    width: 500px;
+    text-align: left;
+    align-self: center;
+}

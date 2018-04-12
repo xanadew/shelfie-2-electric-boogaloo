@@ -1,0 +1,28 @@
+.ShelfHeader{
+    background-color: #AB2A19;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.headerLogo {
+    width: 20vw;
+    position: relative;
+    bottom: 10px;
+
+}
+.ShelfHeader > shelf {
+    background-color: #D34735;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bin {
+    background-color: #ED6B5A;
+    width: 500px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.9rem;
+    font-weight: 400;
+    position: relative;
+    top: 12px;
+}

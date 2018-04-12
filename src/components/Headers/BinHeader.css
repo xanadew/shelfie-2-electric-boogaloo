@@ -1,0 +1,34 @@
+.BinHeader{
+    display:flex;
+    background-color: #AB2A19;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.headerLogo {
+    width: 10vw;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.headerShelf {
+    background-color: #D34735;
+    height: 100%;
+    flex: 1;
+}
+
+.headerBin {
+    width: 70vw;
+    height: 100%;
+    background-color: #ED6B5A;
+}
+span {
+    float: left;
+    margin-left: 26px;
+    margin-top: 30px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+  font-family: Open Sans,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.rapper {
+    width: 20%;
+    min-height: 100vh;
+}
+
+.clear {
+    clear: both;
+}
+.header {
+  background-color: #AB2A19;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header img {
+  position: relative;
+  top: 13px;
+  height: 50px;
+  margin-right: 3px;
+}
+
+.MainHeader > div {
+  width: 500px;
+  text-align: left;
+  align-self: center;
+}
+
+.ShelfHeader .headerLogo {
+  width: 20vw;
+  position: relative;
+  bottom: 10px;
+
+}
+
+.ShelfHeader > .shelf {
+  background-color: #D34735;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.BinHeader {
+  display: flex;
+}
+
+.BinHeader .headerLogo {
+  width: 10vw;
+  padding-bottom: 17px;
+  text-align: center;
+}
+
+.BinHeader .headerShelf {
+  background-color: #D34735;
+  height: 100%;
+  flex: 1;
+}
+
+.BinHeader .headerBin {
+  width: 70vw;
+  height: 100%;
+  background-color: #ED6B5A;
+}
+
+.BinHeader span {
+  float: left;
+  margin-left: 26px;
+  margin-top: 30px;
+}
